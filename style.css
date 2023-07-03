@@ -1,0 +1,316 @@
+body{
+    margin: auto;
+}
+
+.nav-wrapper{
+    background-color: #719601;
+    padding: 5px;
+    width: 100%;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    align-items: stretch;
+    width: 100%;
+    font-weight: bold;
+
+    
+}
+
+.nav-list li{
+    font-weight: bold;
+    display: inline;
+    padding: 0;
+    
+    
+}
+
+.nav-list li a:hover{
+    background-color: rgb(250, 160, 50);
+}
+
+.nav-list li a:active{
+    background-color: rgb(210, 249, 34);
+}
+
+.nav-list li a:visited{
+    background-color: rgb(222, 6, 6);
+}
+
+.form-container{
+    width: 330px;
+    background-color: #323232;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: fixed;
+    bottom: -280px;
+    right: 0;
+    transition: .5s;
+}
+
+.form-container:hover{
+    bottom: 0;
+}
+.email-logo{
+width: 50px;
+float: left;
+background-color: white;
+margin-left: 2px;
+margin-right: 10px;
+}
+
+.form-head-container{
+    background-color: #012b96;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    justify-content: space-between;
+}
+
+.form-item{
+    margin-left: 10px;
+    color: white;
+    padding-left: 8px;
+}
+
+#subject{
+    height: 100px;
+    width: 200px;
+}
+
+.contact-us-label{
+    color: white;
+    justify-content: space-around;
+    
+}
+
+.submit-btn{
+
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 7px 12px;
+    margin: 9px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover{
+    background-color: darkorange;
+}
+
+.caption-1{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    font-size: 4vw;
+    color: white;
+    animation-name: caption-fade;
+    animation-duration: 2s;
+}
+
+@keyframes caption-fade{
+    0%{opacity: 0; top: 0%;}
+    100%{opacity: 1; top: 50%;}
+}
+
+.product-wrapper{
+    position: relative;
+    display: flex;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+#pop{
+    text-align: center;
+}
+
+.products{
+    background-color: #4CAF50;
+    max-width: 20%;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 8px;
+    border-color: #4CAF50;
+    animation: products-anim;
+    animation-duration: 3s;
+}
+
+@keyframes products-anim{
+    0%{opacity: 0; margin-top: 300px;}
+    100%{opacity: 1; margin-top: 8px;}
+}
+
+.products img{
+    width: 100%;
+    position: relative;
+    top: 36px;
+}
+
+.product-cat{
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: white;
+    margin-top: 10%;
+    margin-bottom: -2%;
+    
+}
+
+.btn-container{
+    background-color: white;
+    top: 1;
+    position: relative;
+    padding: 7%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.view-more-btn{
+    background-color: #4CAF50;
+    border: none;
+    max-width: 100%;
+    color: white;
+    padding: 7px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin:  9px 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.view-more-btn:hover{
+    background-color: darkorange;
+}
+
+.logo-container{
+    
+    display: inline-block;
+    position: fixed;
+    right: -30%;
+    bottom: 50%;
+    cursor: pointer;
+}
+
+.logo-container img{
+    width: 8%;
+}
+
+.fb-logo:hover{
+    padding-left: 2%;
+}
+
+.insta-logo:hover{
+    padding-left: 2%;
+}
+
+.twitter-logo:hover{
+    padding-left: 2%;
+}
+
+
+.email-2{
+    margin-left: 10px;
+    color: white;
+    padding-left: 8px;
+    margin-top: 0;
+}
+
+.email-2:focus{
+    background-color: skyblue;
+    color: black;
+}
+
+.sect{
+    
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+#abt-us{
+    text-align: center;
+}
+
+.subscribe{
+    margin-top: 5%;
+    text-align: center;
+    justify-content: right;
+    
+}
+
+.sect-3{
+    
+    margin-top: 12%;
+    margin-left: 45%;
+    margin-right: 10%;
+}
+
+.user:focus{
+    background-color: bisque;
+    color: black;
+}
+
+.thnx-p{
+    text-align: center;
+    margin-top: 20%;
+    font-style: oblique;
+}
+
+footer {
+    background-color: #333; /* Change this to your desired color */
+    color: #fff; /* Text color for the footer */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.img-holder {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.img-holder img {
+    width: 100%;
+    filter: blur(5px); /* Adjust the blur value as desired */
+    transform: scale(1.1); /* Optional: Add a slight zoom effect */
+    transition: filter 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+.img-holder img:hover {
+    filter: none; /* Remove the blur effect on hover */
+    transform: scale(1); /* Optional: Reset the zoom effect on hover */
+}
+
+.productsXtra{
+    text-align: center;
+    margin-right: 2%;
+}
