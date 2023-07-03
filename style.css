@@ -310,6 +310,94 @@ footer a:hover {
     transform: scale(1); /* Optional: Reset the zoom effect on hover */
 }
 
+@media screen and (max-width: 768px) {
+  /* Responsive layout for nav */
+.nav-wrapper {
+    text-align: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+/* Responsive layout for header image and caption */
+.img-holder {
+    position: relative;
+    text-align: center;
+}
+
+.caption-1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Responsive layout for popular categories */
+.product-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.products {
+    text-align: center;
+}
+
+.product-cat {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.view-more-btn {
+    margin-top: 20px;
+}
+
+/* Responsive layout for social media logos */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Responsive layout for contact form */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.form-item,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+/* Responsive layout for footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+}
+
 .productsXtra{
     text-align: center;
     margin-right: 2%;
